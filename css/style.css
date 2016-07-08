@@ -1,0 +1,38 @@
+.jumbotron {
+  background-color:blue !important;
+  padding: 25px;
+}
+.jumbotron h1{
+  color: white ;
+}
+.body{
+  height: 650px;
+  color: white;
+  background-color: yellow;
+  width: 100%;
+  padding: 100px;
+}
+.size{
+  height: 80px;
+  width: 20%
+  margin-left 25px;
+  text-align: center;
+  color: black;
+
+}
+.nav{
+  float: left;
+  background: black;
+  width: 100%;
+  color: white;
+  font-size:19px;
+}
+.nav li{
+  float: left;
+  text-decoration: none;
+  border: .5px solid white;
+
+}
+.nav li a:hover{
+  background-color: red;
+}
