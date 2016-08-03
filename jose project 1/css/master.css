@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  width: 100%;
+  height:55px;
+  background-color: #671EA3;
+}
+.nav_top{
+  float: left;
+}
+.nav_top p{
+  float: left;
+  padding: 1.5px;
+  font-weight: bold;
+  color: #E0D3CE;
+}
+.nav_brand{
+  margin-left: 580px;
+  border-right: 1px solid #E0D3CE;
+  border-left: 1px solid #E0D3CE;
+}
+.nav_info{
+  margin-left: 500px;
+  border-left: 1px solid #E0D3CE;
+  border-right: 1px solid #E0D3CE;
+}

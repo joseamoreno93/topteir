@@ -1,0 +1,379 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+/*START OF NAV BAR*/
+.header .brand{
+  float: left;
+  font-size: 40px;
+  padding: 15px;
+  font-family: 'Shrikhand', cursive;
+  color: #BA8112;
+  background-color: black;
+  height: 58px;
+  margin-left: 230px;
+  text-shadow: 2px 2px 0 #eee
+}
+ .header .nav{
+   float: left;
+   font-size: 20px;
+   padding: 22px;
+   margin-left: 310px;
+   color: white;
+}
+.header .nav li{
+  float: left;
+  margin-left: 45px;
+  font-family: 'Shrikhand', cursive;
+  color: white;
+}
+.header .nav li a{
+  color: #BA8112;
+  text-decoration: none;
+}
+.header .nav li a:hover{
+  background-color: transparent;
+}
+
+.header{
+  height: 70px;
+  width: 100%;
+  color: #BA8112;
+  background-color: black;
+  border-bottom: 2px solid white;
+  position: fixed;
+}
+/*END OF NAV BAR*/
+.wrapper{
+  height: 2705px;
+  width: 100%;
+}
+/*START OF POSTION OF THE IMAGE*/
+.cheater{
+  position: absolute;
+  top: 280px;
+  left: 430px;
+  height: 300px;
+  width: 300px;
+}
+.cheater_2{
+  position: absolute;
+  top: 271px;
+  left: 772px;
+  height: 300px;
+  width: 300px;
+}
+.cheater_3{
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  height: 300px;
+  width: 300px;
+}
+/*END OF POSTION OF IMAGE*/
+.info{
+  position: absolute;
+  top: 100px;
+  left: 754px;
+  float: left;
+  height: 46px;
+  width: 463px;
+  margin-top: 71px;
+  border-top: 1.5px solid;
+  border-bottom: 1.5px  solid;
+  font-family: 'Shrikhand', cursive;
+}
+.info .info_nav li{
+  float: left;
+  list-style: none;
+  padding: 9px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.info_nav{
+  width: 500px ;
+  height: 60px;
+  margin-left:-86;
+}
+.info .info_nav li a{
+  text-decoration: none;
+  color:#82817D;
+}
+/*END WITH ABLUMS NAMES*/
+
+
+/*START OF THE THREE IMAGE OF THE GROUP*/
+.info_img{
+  height: 300px;
+  width: 300px;;
+}
+.kurt{
+  height: 300px;
+  width: 300px;
+}
+.kurt img{
+  width: 250px;
+  height: auto;
+  border-radius: 80px;
+}
+.name{
+  height: 30px;
+  width: 125px;
+  padding: 7px;
+  margin-left: 72px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.pos{
+  height: 30px;
+  width: 100px;
+  padding: 7px;
+  margin-left: 85px;
+  font-weight: bolder;
+}
+/*END OF THE THREE IMAE OF THE GROUP*/
+/*NEW JUMNBOTRON*/
+
+.jumbotron{
+  height: 450px;
+  background: url('../img/fin.jpg');
+  background-size: cover;
+  margin-top: 300px;
+  width: 1500px;
+  margin-left: -186px;
+}
+.jumbotron p{
+  font-size:16px;
+  color: #eee;
+  letter-spacing: 0.5px;
+  font-family: 'Shrikhand', cursive;
+}
+.jumbotron h2{
+  font-size: 30px;
+  color: #eee;
+  font-family: 'Shrikhand', cursive;
+}
+/*END OF JUMBOTRON*/
+/*START OF THE ALBUM ORDER*/
+.dic_title{
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  border-bottom: 2px solid white;
+  margin-left: 830px;
+  font-size: 50px;
+  margin-top: 76px;
+  margin-bottom: 50px;
+  font-family: 'Anton', sans-serif;
+  color: #82817D;
+}
+.disc{
+  width: 100%;
+  height: 1500px;
+  margin-left: 154px;
+}
+.disc .disc_back{
+  float: left;
+}
+.disc img{
+  height: 500px;
+  width: 524px;
+  margin-left: 13px;
+  margin-bottom: 26px;
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+}
+.disc img:hover{
+  opacity: 1.0;
+  filter: alpha opacity(100);
+}
+/*START OF THE FOOTER*/
+/*-------------------BLEACH STARTS CSS---------------*/
+.main{
+  height: 699px;
+  width: 623px;
+  position: absolute;
+  top: 300px;
+  left: 638px
+}
+.main_img{
+  height: 627px;
+  width: 623px;
+  background-color: #eee;
+}
+.main_img img{
+  padding: 4px;
+}
+.main_name{
+  height: 50px;
+  width: 623px;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #BA8112;
+}
+.wrapper_bleach{
+  height: 2082px;
+  width: 100%;
+}
+
+/*-------START OF TRACK LIST------*/
+.jose p{
+  position: absolute;
+  font-family: 'Anton', sans-serif;
+  color: #82817D;
+  font-size: 50px;
+  top: 1131px;
+  left: 264px;
+  border-bottom: 1.5px solid white;
+
+}
+.track_list{
+  height: 500px;
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 1283px;
+  margin-left: 256px;
+}
+.track_img{
+  height: 110px;
+  width: 394px;
+  float: left;
+  margin-bottom: 16px;
+  border-bottom: 1.5px solid #eee;
+
+}
+.track_order{
+  height: 110px;
+  width: 394px;
+}
+.track_order img {
+  max-width: 105px;
+  float: left;
+  border-radius: 65px
+}
+.track_order p{
+  padding: 35px;
+  text-align: center;
+  font-family: 'Candal', sans-serif;
+  color: #BA8112;
+}
+
+
+
+
+
+/*-------------------BLEACH ENDS CSS---------------------------------------*/
+
+
+/*--------------INCESTICIDE STARTS CSS----------------*/
+
+.wrapper_incesticide{
+  width: 100%;
+  height: 2082px;
+}
+
+.main_name_incesticide{
+  height: 61px;
+  width: 623px;
+  font-family: 'Anton', sans-serif;
+  font-size: 46px;
+  text-align: center;
+  color: #BA8112;
+}
+
+
+/*------------END INCESTICIDE CSS-----------------------*/
+
+/*--------------NEVERMIND STARTS CSS-------------------*/
+
+.main_name_nevermind{
+  height: 61px;
+  width: 623px;
+  font-family: 'Anton', sans-serif;
+  font-size: 46px;
+  text-align: center;
+  color: #BA8112;
+}
+.main_img_nevermind{
+  height: 608px;
+  width: 608px;
+  background-color: #eee;
+}
+.main_img_nevermind img{
+  padding: 4px;
+}
+
+/*---------------NEVERMIND ENDS CSS---------------*/
+
+/*------------IN UTERO-----------------------*/
+
+.main_img_inutero{
+  height: 608px;
+  width: 608px;
+  background-color: #eee;
+}
+.main_img_inutero img{
+  padding: 4px;
+}
+.main_name_inutero{
+  height: 61px;
+  width: 623px;
+  font-family: 'Anton', sans-serif;
+  font-size: 46px;
+  text-align: center;
+  color: #BA8112;
+}
+
+
+/*------------------READING STARTS CSS----------------------------*/
+.reading{
+  height: 627px;
+  width: 623px;
+}
+.footer{
+width: 100%;
+height: 130px;
+border-top: 2px solid white;
+color: yellow;
+text-align: center;
+}
+.background-wrap-reading{
+  position: absolute;
+  top: 1200px;
+  left: 110px;
+  width: 100%;
+}
+.background-wrap-reading iframe{
+  opacity: 0.5;
+  filter: alpha(opacity=50)
+}
+.background-wrap-reading iframe:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+
+
+
+/*----------------------READING ENDS CSS---------------------------------*/
+.footer{
+  width: 100%;
+  height: 130px;
+  border-top: 2px solid white;
+  color: yellow;
+  text-align: center;
+}
+.footer_word{
+  margin-top: 87px;
+}
+span {
+  color: yellow;
+}
+/*-------------------------ALL OF THE CSS CONTENT APPLY------------------*/
